@@ -8,9 +8,10 @@ import joblib
 import os
 
 # Load datasets (CSV version)
-exercise_file = "C:/coding/fitness_tracker/exercise.csv"
-calories_file = "C:/coding/fitness_tracker/calories.csv"
-
+# exercise_file = "C:/coding/fitness_tracker/exercise.csv"
+# calories_file = "C:/coding/fitness_tracker/calories.csv"
+exercise_file = "exercise.csv"
+calories_file = "calories.csv"
 # Read CSV files
 df_exercise = pd.read_csv(exercise_file)
 df_calories = pd.read_csv(calories_file)
